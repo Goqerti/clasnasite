@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-lang-key="contact_page_title">Əlaqə — Clasna Travel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/" data-lang-key="brand_name">Clasna Travel</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="/tours.html" data-lang-key="nav_tours">Turlar</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about.html" data-lang-key="nav_about">Haqqımızda</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-lang-key="nav_services">
+              Xidmətlər
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="/avtomobil-kirayesi.html" data-lang-key="nav_car_rental">Avtomobil kirayəsi</a></li>
+              <li><a class="dropdown-item" href="/seyahat-xidmetleri.html" data-lang-key="nav_travel_services">Səyahət xidmətləri</a></li>
+              <li><a class="dropdown-item special" href="/neqliyyat-xidmetleri.html" data-lang-key="nav_transport_services">Nəqliyyat xidmətləri</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="/contact.html" data-lang-key="nav_contact">Əlaqə</a></li>
+          
+          <li class="nav-item dropdown ms-lg-3">
+            <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-globe"></i> <span id="current-lang-text">AZ</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown" id="language-switcher">
+                <li><button class="dropdown-item" data-lang="az">Azərbaycan</button></li>
+                <li><button class="dropdown-item" data-lang="en">English</button></li>
+                <li><button class="dropdown-item" data-lang="ru">Русский</button></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-header" style="background-image: url('img/contact.jpg');">
+    <div class="container" data-aos="fade-in">
+        <h1 class="display-4 fw-bold" data-lang-key="contact_form_title">Bizimlə Əlaqə</h1>
+    </div>
+  </header>
+
+  <main class="py-5 contact-page-main">
+      <div class="container">
+          <div class="contact-wrapper">
+              <div class="row g-0">
+                  <div class="col-lg-6" data-aos="fade-right">
+                      <div class="contact-form-side">
+                          <h3 class="fw-bold mb-4" data-lang-key="contact_send_message">Mesaj göndərin</h3>
+                          <form id="contactForm" class="row g-3">
+                              <div class="col-md-6">
+                                  <input name="name" required class="form-control" placeholder="Adınız" data-lang-key="contact_form_name_placeholder">
+                              </div>
+                              <div class="col-md-6">
+                                  <input name="email" required class="form-control" type="email" placeholder="E-poçtunuz" data-lang-key="contact_form_email_placeholder">
+                              </div>
+                              <div class="col-12">
+                                  <input name="subject" class="form-control" placeholder="Mövzu" data-lang-key="contact_form_subject_placeholder">
+                              </div>
+                              <div class="col-12">
+                                  <textarea name="message" rows="5" class="form-control" placeholder="Mesajınız" data-lang-key="contact_form_message_placeholder"></textarea>
+                              </div>
+                              <div class="col-12">
+                                  <button class="btn btn-primary w-100" data-lang-key="contact_form_send_button">Göndər</button>
+                              </div>
+                          </form>
+                          <div id="contactMsg" class="mt-3"></div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                      <div class="contact-info-side">
+                          <h3 class="fw-bold mb-4" data-lang-key="footer_contact_title">Əlaqə Məlumatları</h3>
+                          <ul class="list-unstyled">
+                              <li class="d-flex align-items-start mb-4">
+                                  <div class="icon-wrapper me-3"><i class="fas fa-map-marker-alt"></i></div>
+                                  <div>
+                                      <h5 data-lang-key="contact_address_label">Ünvan</h5>
+                                      <p class="text-white-50" data-lang-key="footer_address">Ahmad Rajabli 3</p>
+                                  </div>
+                              </li>
+                              <li class="d-flex align-items-start mb-4">
+                                <div class="icon-wrapper me-3"><i class="fas fa-envelope"></i></div>
+                                  <div>
+                                      <h5 data-lang-key="form_email">E-poçt</h5>
+                                      <p class="text-white-50">office@clasnatravel.com</p>
+                                  </div>
+                              </li>
+                              <li class="d-flex align-items-start">
+                                <div class="icon-wrapper me-3"><i class="fas fa-phone"></i></div>
+                                  <div>
+                                      <h5 data-lang-key="form_phone">Telefon</h5>
+                                      <p class="text-white-50">+994 10 229 05 53</p>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </main>
+  
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-center text-md-start">
+      <div class="row">
+        <div class="col-md-3 col-lg-4 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 fw-bold text-primary" data-lang-key="footer_brand">Clasna Travel</h5>
+          <p data-lang-key="footer_desc">Clasna Travel ilə səyahət etmək həm rahat, həm də etibarlıdır. Xidmətlərimizdən yararlanaraq sizə ən yüksək səviyyədə xidmət göstərmək üçün buradayıq.</p>
+        </div>
+        <div class="col-md-2 col-lg-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 fw-bold" data-lang-key="footer_pages_title">Səhifələr</h6>
+          <p><a href="/" class="text-white" style="text-decoration: none;" data-lang-key="footer_home">Ana səhifə</a></p>
+          <p><a href="/about.html" class="text-white" style="text-decoration: none;" data-lang-key="footer_about">Haqqımızda</a></p>
+          <p><a href="/tours.html" class="text-white" style="text-decoration: none;" data-lang-key="footer_tours">Turlar</a></p>
+          <p><a href="/contact.html" class="text-white" style="text-decoration: none;" data-lang-key="footer_contact">Əlaqə</a></p>
+        </div>
+        <div class="col-md-4 col-lg-3 mx-auto mt-3">
+          <p><i class="fas fa-home me-3"></i> <span data-lang-key="footer_address"></span></p>
+          <p><i class="fas fa-envelope me-3"></i> office@clasnatravel.com</p>
+          <p><i class="fas fa-phone me-3"></i> +994 10 315 11 79</p>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <div class="text-center">
+        <p data-lang-key="footer_copy">© Clasna Travel coded by Şirvan</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/lang.js"></script>
+  <script>
+    AOS.init({once:true, duration:800});
+
+    document.getElementById('contactForm').addEventListener('submit', async function(e){
+        e.preventDefault();
+        const msgDiv = document.getElementById('contactMsg');
+        msgDiv.className = 'alert alert-info mt-3';
+        msgDiv.innerText = 'Göndərilir...';
+
+        const fd = new FormData(this);
+        const body = Object.fromEntries(fd.entries());
+        try {
+            const res = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(body)
+            });
+            const json = await res.json();
+            
+            if(res.ok) {
+                msgDiv.className = 'alert alert-success mt-3';
+                msgDiv.innerText = json.message || 'Mesajınız uğurla göndərildi!';
+                this.reset();
+            } else {
+                msgDiv.className = 'alert alert-danger mt-3';
+                msgDiv.innerText = json.error || 'Xəta baş verdi.';
+            }
+        } catch(e) {
+            msgDiv.className = 'alert alert-danger mt-3';
+            msgDiv.innerText = 'Şəbəkə xətası. Müraciət göndərilə bilmədi.';
+        }
+    });
+  </script>
+</body>
+</html>

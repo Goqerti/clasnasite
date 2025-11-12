@@ -1,0 +1,62 @@
+[
+  {
+    "id": "dest1760515118467",
+    "name": {
+      "az": "Şahdağ",
+      "en": "Shahdagh",
+      "ru": "Шахдаг "
+    },
+    "description": {
+      "az": "Qusar — Rusiya ilə sərhəddə yerləşən, nəfəskəsən dağ mənzərələri ilə zəngin bir bölgədir.\r\nQış aylarında Azərbaycanın ilk dağ-xizək kurortu olan Şahdağ Turizm Mərkəzinə yollanın. Bu kurort 4243 metr hündürlüyə malik məşhur Şahdağ dağının adını daşıyır və bir neçə bölgəni əhatə edən geniş Şahdağ Milli Parkı ərazisində yerləşir.\r\nKurortun yaxınlığında yerləşən Laza kəndi füsunkar təbiəti ilə tanınır və xüsusilə yay mövsümündə uzun və ya çoxgünlük yürüşlər üçün ideal yerdir.\r\nYerlinin böyük hissəsini qədim Qafqaz xalqlarından biri olan ləzgilər təşkil edir. Onların özünəməxsus milli mətbəx nümunələrini bölgənin müxtəlif yerlərində dadmaq mümkündür.",
+      "en": "Gusar is a place full of breathtaking mountains rising over this north-eastern region bordering Russia.\r\nIn winter, head to Azerbaijan’s first ski resort – the Shahdag Mountain Resort, named after the famous Mount Shahdag (4,243 meters high), located in the Shahdag National Park — a vast protected area covering several regions of the country.\r\nNot far from the resort lies the charming village of Laza, surrounded by stunning landscapes that invite long or even multi-day hikes, especially in summer.\r\nA significant part of the local population are Lezgins — an ancient people of the Caucasus Mountains, known for their unique national cuisine, which can be enjoyed throughout the region.",
+      "ru": "Гусар – это место, полное потрясающих гор, возвышающихся над этим северо-восточным регионом, граничащим с Россией. Зимой отправляйтесь на первый горнолыжный курорт Азербайджана – Шахдагский горный курорт, названный в честь знаменитой горы Шахдаг высотой 4243 метра, расположенной в Шахдагском национальном парке – обширной охраняемой территории, охватывающей несколько регионов страны. Неподалеку от горнолыжного курорта находится очаровательная деревня Лаза, окруженная захватывающими дух пейзажами, обещающими многочасовые или даже многодневные пешие прогулки, особенно летом. Значительную часть местного населения составляют лезгины – древний народ Кавказских гор, обладающий уникальными национальными блюдами, которые можно попробовать по всему региону."
+    },
+    "image": "/uploads/1760515118461-03_Evening (1).jpg",
+    "mapImage": "/uploads/1760515118464-ZHKFqofz5YeKjqxmXIDovGcPRxqAJsEewjmIEPSM (2).svg"
+  },
+  {
+    "id": "dest1759327875798",
+    "name": {
+      "az": "Müalicəvi Naftalan ",
+      "en": "Therapeutic Naftalan",
+      "ru": "Лечебный Нафталан "
+    },
+    "description": {
+      "az": "Naftalan — Azərbaycanda unikal müalicə kurortu olub, öz müalicəvi neft vannaları ilə məşhurdur. Yerli naftalan nefti dəri xəstəliklərinin, sümüklər və əzələ sistemi pozuntularının, həmçinin bəzi nevroloji problemlərin müalicəsində istifadə olunur.",
+      "en": "Naftalan is a unique therapeutic resort in Azerbaijan, famous for its medicinal oil baths. The local naftalan oil contains specific healing substances used to treat skin diseases, musculoskeletal disorders, and certain neurological conditions.",
+      "ru": "Нафталан — уникальный лечебный курорт в Азербайджане, известный своими целебными нефтьными ваннами. Местная нефть (нафталан) содержит специфические лечебные вещества, которые применяются для терапии заболеваний кожи, опорно-двигательного аппарата и некоторых неврологических проблем."
+    },
+    "image": "/uploads/1759327875785-Ð¡Ð½Ð¸Ð¼Ð¾Ðº ÑÐºÑÐ°Ð½Ð° 2025-09-30 142041.png",
+    "mapImage": "/uploads/1759327875797-wKYf2MNzeZR7q4A83EyObsKgHk8ET7RMwKKRVYNH.png"
+  },
+  {
+    "id": "dest1759323976841",
+    "name": {
+      "az": "Qobustan ",
+      "en": "Gobustan ",
+      "ru": "Гобустан "
+    },
+    "description": {
+      "az": "Qayalıq təsvirlər (petroqliflər) – 5 000–20 000 il əvvələ aid, insanları, heyvanları, qayıqları və simvolları əks etdirən 6 000-dən çox qədim təsvir.\r\n\r\nPalçıq vulkanları – 300-dən çox unikal vulkan, püskürmələri güclü partlayışlar və yeraltı səslərlə müşayiət olunur.\r\n\r\nTəbii və memarlıq abidələri – yaxınlıqda daimi yanar təbii qazı ilə Yanardağ, Atəşgah Məbədi və Bibi-Eybat Məscidi yerləşir.\r\n\r\n",
+      "en": "Rock engravings (petroglyphs) – over 6,000 ancient images depicting humans, animals, boats, and symbols, dating from 5,000 to 20,000 years ago.\r\n\r\nMud volcanoes – more than 300 unique volcanoes, with eruptions accompanied by strong explosions and underground sounds.\r\n\r\nNatural and architectural monuments – nearby are Yanar Dag with its continuously burning natural gas, the Ateshgah Fire Temple, and Bibi-Eybat Mosque.\r\n\r\n",
+      "ru": "Наскальные рисунки (петроглифы) – более 6 000 древних изображений людей, животных, лодок и символов, датируемых от 5 000 до 20 000 лет назад.\r\n\r\nГрязевые вулканы – свыше 300 вулканов, уникальных по своему типу, с извержениями, сопровождаемыми громкими взрывами и подземными звуками.\r\n\r\nПриродные и архитектурные памятники – рядом находятся гора Янардaг с постоянно горящим природным газом, храм огня Атешгях, мечеть Биби-Эйбат.\r\n\r\n"
+    },
+    "image": "/uploads/1759323976821-9c53b99f-bfa0-42d2-b29f-5767aad9a6a0.jpg",
+    "mapImage": "/uploads/1759323976839-MhOCtU5m6CTB6Mtxe7dR9xujQR2NEITMpfoi6DsH.png"
+  },
+  {
+    "id": "dest1759320894102",
+    "name": {
+      "az": "Qəbələ ",
+      "en": "Gabala ",
+      "ru": "Габала "
+    },
+    "description": {
+      "az": "Şərq və Qərbin görüşdüyü yer\r\nBakıda siz daim dəyişən həyat və enerji palitrasını – bazardan penthauslara qədər – kəşf edəcəksiniz. Dənizkənarı şəhər olan Bakı təbiət etibarilə açıq və qonaqpərvərdir. Ziyarətçilər Xəzər dənizi sahilində (bulvar) gəzə, Köhnə Şəhəri (yerli sakinlər İçərişəhər adlandırır) ziyarət edə və Şərq ilə Qərbin unikal memarlıq qarışığından həzz ala bilərlər.",
+      "en": "Where East Meets West\r\nIn Baku, you will discover a constantly changing palette of life and energy – from the bazaar to the penthouse. As a coastal city, Baku is naturally open and hospitable. Visitors can stroll along the Caspian Sea promenade (the Boulevard), explore the Old City (known locally as Icherisheher), and enjoy the unique architectural blend of East and West.",
+      "ru": "Где Восток встречается с Западом\r\nВ Баку вы откроете для себя постоянно меняющуюся палитру жизни и энергии – от базара до пентхауса. Будучи прибрежным городом, Баку по своей природе открыт и гостеприимен. Гости могут прогуляться по набережной Каспийского моря (бульвару), посетить Старый город (местные жители называют его Ичеришехер) и насладиться уникальным архитектурным сочетанием Востока и Запада."
+    },
+    "image": "/uploads/1759324451193-nohurgol-1080x675.jpg",
+    "mapImage": "/uploads/1759324451195-UBGMMgjjYRl3UcAymoIrfOcrhmalcYI9J3yM63ar.png"
+  }
+]

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bütün Turlar - Clasna Travel | Azərbaycan Daxili Turlar</title>
+<meta name="description" content="Clasna Travel-in təşkil etdiyi bütün Azərbaycan daxili turlarla tanış olun. Quba, Şəki, Qəbələ və digər bölgələrə sərfəli qiymətlərlə səyahət edin.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="tours-page-body">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="/" data-lang-key="brand_name">Clasna Travel</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="/tours.html" data-lang-key="nav_tours">Turlar</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about.html" data-lang-key="nav_about">Haqqımızda</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-lang-key="nav_services">
+              Xidmətlər
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="/avtomobil-kirayesi.html" data-lang-key="nav_car_rental">Avtomobil kirayəsi</a></li>
+              <li><a class="dropdown-item" href="/seyahat-xidmetleri.html" data-lang-key="nav_travel_services">Səyahət xidmətləri</a></li>
+              <li><a class="dropdown-item special" href="/neqliyyat-xidmetleri.html" data-lang-key="nav_transport_services">Nəqliyyat xidmətləri</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="/contact.html" data-lang-key="nav_contact">Əlaqə</a></li>
+          
+          <li class="nav-item dropdown ms-lg-3">
+            <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-globe"></i> <span id="current-lang-text">AZ</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown" id="language-switcher">
+                <li><button class="dropdown-item" data-lang="az">Azərbaycan</button></li>
+                <li><button class="dropdown-item" data-lang="en">English</button></li>
+                <li><button class="dropdown-item" data-lang="ru">Русский</button></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="tours-header-redesigned">
+    <div class="container text-center">
+        <h1 class="display-3 fw-bold" data-lang-key="tours_header_title">Bütün Turlar</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="tours-content-wrapper">
+        <div class="row mb-4 gx-3 align-items-center">
+            <div class="col-md-5">
+              <input id="search" class="form-control form-control-lg" placeholder="Tur adı və ya məkan axtarın..." data-lang-key="tours_search_placeholder">
+            </div>
+            <div class="col-md-4">
+                <select id="filter" class="form-select form-select-lg">
+                    <option value="" data-lang-key="tours_filter_all">Bütün müddətlər</option>
+                    <option data-lang-key="tours_filter_half_day">Half day</option>
+                    <option data-lang-key="tours_filter_1_day">1 day</option>
+                    <option data-lang-key="tours_filter_2_days">2 days</option>
+                </select>
+            </div>
+            <div class="col-md-3 text-md-end">
+                <a class="btn btn-outline-secondary" href="/" data-lang-key="tours_back_to_home">← Ana Səhifəyə Qayıt</a>
+            </div>
+        </div>
+        <hr class="my-4">
+        <div id="list" class="row g-4">
+            </div>
+      </div>
+    </div>
+  </main>
+
+ <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-center text-md-start">
+      <div class="row">
+        <div class="col-md-3 col-lg-4 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 fw-bold text-primary" data-lang-key="footer_brand">Clasna Travel</h5>
+          <p data-lang-key="footer_desc">Clasna Travel ilə səyahət etmək həm rahat, həm də etibarlıdır. Xidmətlərimizdən yararlanaraq sizə ən yüksək səviyyədə xidmət göstərmək üçün buradayıq.</p>
+        </div>
+        <div class="col-md-2 col-lg-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 fw-bold" data-lang-key="footer_pages_title">Səhifələr</h6>
+          <p><a href="/" class="text-white" style="text-decoration: none;" data-lang-key="footer_home">Ana səhifə</a></p>
+          <p><a href="/about.html" class="text-white" style="text-decoration: none;" data-lang-key="footer_about">Haqqımızda</a></p>
+          <p><a href="/tours.html" class="text-white" style="text-decoration: none;" data-lang-key="footer_tours">Turlar</a></p>
+          <p><a href="/contact.html" class="text-white" style="text-decoration: none;" data-lang-key="footer_contact">Əlaqə</a></p>
+        </div>
+        <div class="col-md-4 col-lg-3 mx-auto mt-3">
+          <p><i class="fas fa-home me-3"></i> <span data-lang-key="footer_address"></span></p>
+          <p><i class="fas fa-envelope me-3"></i> office@clasnatravel.com</p>
+          <p><i class="fas fa-phone me-3"></i> +994 10 315 11 79</p>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <div class="text-center">
+        <p data-lang-key="footer_copy">© Clasna Travel coded by Şirvan</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/tours.js"></script>
+  <script src="js/pro-animations.js"></script>
+  <script src="js/lang.js"></script>
+  <script> 
+    AOS.init({once:true, duration:800}); 
+  </script>
+</body>
+</html>
