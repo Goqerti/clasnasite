@@ -1,0 +1,14 @@
+{
+  "name": "clasna-travel-pro",
+  "version": "1.0.0",
+  "description": "Clasna Travel PRO - enhanced demo site (Node + JSON DB + Bootstrap + Swiper + AOS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^2.0.2"
+  }
+}
